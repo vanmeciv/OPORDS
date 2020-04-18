@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+var mymap = L.map('mapid').setView([46.732, -122.8], 8);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -10,14 +10,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(mymap);
 
 
-// // replace "toner" here with "terrain" or "watercolor"
-// var layer = new L.StamenTileLayer("terrain");
-// var map = new L.Map("element_id", {
-//     center: new L.LatLng(37.7, -122.4),
-//     zoom: 12
-// });
-// map.addLayer(layer);
-//
 //
 // var marker = L.marker([51.5, -0.09]).addTo(map);
 //
