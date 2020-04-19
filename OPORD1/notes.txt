@@ -5,22 +5,22 @@ Mountain in the north (approximately the
 limit and the western limit spans 30 km to 
 Matlock (adjoining sheet 1377 IV).
 
-Arianan HQ: IVO 10TDS95439178
-Degrees Lat Long 	46.8795426°, -123.0599767°
+Arianan HQ: IVO 10TET95439178
+Degrees Lat Long 	47.7723150, -121.7262847
 
 A Co to North
 
 B Co to East
 
 C Co:
-FOB Spartan: 10TDS8340088211
-Degrees Lat Long 	46.8472339°, -123.2177278°
+FOB Spartan: 10TET8340088211
+Degrees Lat Long 	47.7418782, -121.8875016
 
-1st PLT (RAID - OBJ Blackjack): 10TDS86348939
-Degrees Lat Long 	46.8579105°, -123.1792019°
+1st PLT (RAID - OBJ Blackjack): 10TET86348939
+Degrees Lat Long 		47.7520973, -121.8480581
 
-2nd PLT (AMBUSH - OBJ Chestnut): 10TDS82979178
-Degrees Lat Long 	46.8793401°, -123.2235009°
+2nd PLT (AMBUSH - OBJ Chestnut): 10TET82979178
+Degrees Lat Long 		47.7740399, -121.8925553
 
-3rd PLT (AMBUSH - OBJ Dragoon): 10TDS85299098
-Degrees Lat Long 	46.8721964°, -123.1930277°
+3rd PLT (AMBUSH - OBJ Dragoon): 10TET85299098
+Degrees Lat Long 	47.7665404, -121.8617523
