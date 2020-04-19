@@ -11,17 +11,17 @@
 .hostileInst {
   background-image: url(https://github.com/vanmeciv/OPORDS/blob/master/OPORD1/Arianan_HQ.PNG?raw=true);
   background-repeat: no-repeat;
-  background-size: 200px 50px;
-  padding-top: 40px;
-  padding-right: 220px;
+  background-size: 140px 60px;
+  padding-top: 50px;
+  padding-right: 130px;
 }
 
 .spartan {
   background-image: url(https://github.com/vanmeciv/OPORDS/blob/master/OPORD1/Charlie_FOB.PNG?raw=true);
   background-repeat: no-repeat;
-  background-size: 200px 50px;
+  background-size: 185px 50px;
   padding-top: 40px;
-  padding-right: 220px;
+  padding-right: 185px;
 }
 
 .blackjack {

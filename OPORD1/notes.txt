@@ -12,6 +12,11 @@ A Co to North
 
 B Co to East
 
+AO:
+Larch mountain to north - XVP6+WW Malone-Porter, Washington
+Little Rock to east - Little Rock, WA
+
+
 C Co:
 FOB Spartan: 10TET8340088211
 Degrees Lat Long 	47.7418782, -121.8875016
