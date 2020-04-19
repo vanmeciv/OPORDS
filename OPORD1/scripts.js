@@ -11,22 +11,26 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 
-
-var myIcon = L.divIcon({className: 'my-div-icon'});
-// you can set .my-div-icon styles in CSS
-L.marker([46.8721964, -123.1930277], {icon: myIcon}).addTo(mymap);
-
-
 // OBJ Dragoon
+var objDragoon = L.divIcon({className: 'my-div-icon'});
+// you can set .my-div-icon styles in CSS
+L.marker([46.8721964, -123.1930277], {icon: objDragoon}).addTo(mymap);
 // var dragoon = L.marker([	46.8721964, -123.1930277]).addTo(mymap);
+
 // OBJ Chestnut
 var chestnut = L.marker([	46.8793401, -123.2235009]).addTo(mymap);
+
 // OBJ Blackjack
 var blackjack = L.marker([	46.8579105, -123.1792019]).addTo(mymap);
+
 // FOB Spartan
-var spartan = L.marker([	46.8472339, -123.2177278]).addTo(mymap);
+var spartan = L.divIcon({className: 'hostileInst'});
+// you can set .my-div-icon styles in CSS
+L.marker([46.8472339, -123.2177278], {icon: spartan}).addTo(mymap);
+// var spartan = L.marker([	46.8472339, -123.2177278]).addTo(mymap);
+
 // Arianan HQ
-var ariananHQ = L.marker([	46.8795426, -123.0599767]).addTo(mymap);
+// var ariananHQ = L.marker([	46.8795426, -123.0599767]).addTo(mymap);
 
 
 // var LeafIcon = L.Icon.extend({
