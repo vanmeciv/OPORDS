@@ -6,6 +6,7 @@ limit and the western limit spans 30 km to
 Matlock (adjoining sheet 1377 IV).
 
 Arianan HQ: IVO 10TDS95439178
+Degrees Lat Long 	46.8795426°, -123.0599767°
 
 A Co to North
 
@@ -13,10 +14,13 @@ B Co to East
 
 C Co:
 FOB Spartan: 10TDS8340088211
+Degrees Lat Long 	46.8472339°, -123.2177278°
 
 1st PLT (RAID - OBJ Blackjack): 10TDS86348939
+Degrees Lat Long 	46.8579105°, -123.1792019°
 
 2nd PLT (AMBUSH - OBJ Chestnut): 10TDS82979178
+Degrees Lat Long 	46.8793401°, -123.2235009°
 
-3rd PLT (RAID - OBJ Dragoon): 10TDS85299098
-
+3rd PLT (AMBUSH - OBJ Dragoon): 10TDS85299098
+Degrees Lat Long 	46.8721964°, -123.1930277°
