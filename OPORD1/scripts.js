@@ -10,6 +10,13 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(mymap);
 
 
+
+
+var myIcon = L.divIcon({className: 'my-div-icon'});
+// you can set .my-div-icon styles in CSS
+L.marker([46.8721964, -123.1930277], {icon: myIcon}).addTo(mymap);
+
+
 // OBJ Dragoon
 // var dragoon = L.marker([	46.8721964, -123.1930277]).addTo(mymap);
 // OBJ Chestnut
@@ -22,29 +29,29 @@ var spartan = L.marker([	46.8472339, -123.2177278]).addTo(mymap);
 var ariananHQ = L.marker([	46.8795426, -123.0599767]).addTo(mymap);
 
 
-var LeafIcon = L.Icon.extend({
-    options: {
-        shadowUrl: 'leaf-shadow.png',
-        iconSize:     [38, 95],
-        shadowSize:   [50, 64],
-        iconAnchor:   [22, 94],
-        shadowAnchor: [4, 62],
-        popupAnchor:  [-3, -76]
-    }
-});
-
-var greenIcon = new LeafIcon({iconUrl: 'leaf-green.png'}),
-    redIcon = new LeafIcon({iconUrl: 'leaf-red.png'}),
-    orangeIcon = new LeafIcon({iconUrl: 'leaf-orange.png'});
-
-
-    L.icon = function (options) {
-        return new L.Icon(options);
-    };
-
-L.marker([46.8721964, -123.1930277], {icon: greenIcon}).addTo(map).bindPopup("I am a green leaf.");
-L.marker([51.495, -0.083], {icon: redIcon}).addTo(map).bindPopup("I am a red leaf.");
-L.marker([51.49, -0.1], {icon: orangeIcon}).addTo(map).bindPopup("I am an orange leaf.");
+// var LeafIcon = L.Icon.extend({
+//     options: {
+//         shadowUrl: 'leaf-shadow.png',
+//         iconSize:     [38, 95],
+//         shadowSize:   [50, 64],
+//         iconAnchor:   [22, 94],
+//         shadowAnchor: [4, 62],
+//         popupAnchor:  [-3, -76]
+//     }
+// });
+//
+// var greenIcon = new LeafIcon({iconUrl: 'leaf-green.png'}),
+//     redIcon = new LeafIcon({iconUrl: 'leaf-red.png'}),
+//     orangeIcon = new LeafIcon({iconUrl: 'leaf-orange.png'});
+//
+//
+//     L.icon = function (options) {
+//         return new L.Icon(options);
+//     };
+//
+// L.marker([46.8721964, -123.1930277], {icon: greenIcon}).addTo(my).bindPopup("I am a green leaf.");
+// L.marker([51.495, -0.083], {icon: redIcon}).addTo(mymap).bindPopup("I am a red leaf.");
+// L.marker([51.49, -0.1], {icon: orangeIcon}).addTo(mymap).bindPopup("I am an orange leaf.");
 
 
 // var circle = L.circle([	46.8721964, -123.1930277], {

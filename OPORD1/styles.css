@@ -1,1 +1,9 @@
 #mapid { height: 90%; }
+
+
+.my-div-icon {
+  background-image: url(leaf-green.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
