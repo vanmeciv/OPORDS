@@ -1,49 +1,49 @@
 #mapid { height: 90%; }
 
 
-.my-div-icon {
+/* .my-div-icon {
   background-image: url(leaf-green.png);
   background-repeat: no-repeat;
   background-size: 24px 50px;
   padding-top: 30px;
-}
+} */
 
 .hostileInst {
-  background-image: url(564px-HOS_INS.svg.png);
+  background-image: url(Arianan_HQ.png);
   background-repeat: no-repeat;
-  background-size: 50px 50px;
+  background-size: 200px 50px;
   padding-top: 40px;
-  padding-right: 40px;
+  padding-right: 220px;
 }
 
 .spartan {
-  background-image: url(.png);
+  background-image: url(Charlie_FOB.png);
   background-repeat: no-repeat;
-  background-size: 50px 50px;
+  background-size: 200px 50px;
   padding-top: 40px;
-  padding-right: 40px;
+  padding-right: 220px;
 }
 
 .blackjack {
   background-image: url(1st_PLT.png);
   background-repeat: no-repeat;
-  background-size: 50px 50px;
+  background-size: 220px 50px;
   padding-top: 40px;
-  padding-right: 40px;
+  padding-right: 220px;
 }
 
 .chestnut {
   background-image: url(2nd_PLT.png);
   background-repeat: no-repeat;
-  background-size: 50px 50px;
+  background-size: 220px 50px;
   padding-top: 40px;
-  padding-right: 40px;
+  padding-right: 220px;
 }
 
 .dragoon {
   background-image: url(3rd_PLT.png);
   background-repeat: no-repeat;
-  background-size: 50px 50px;
+  background-size: 220px 50px;
   padding-top: 40px;
-  padding-right: 40px;
+  padding-right: 220px;
 }
