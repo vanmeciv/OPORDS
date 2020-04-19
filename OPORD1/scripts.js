@@ -29,21 +29,30 @@ var chestnut = L.divIcon({className: 'chestnut',iconAnchor: [110,27]});
 L.marker([	46.8793401, -123.2235009 ], {icon: chestnut}).addTo(mymap);
 
 // OBJ Dragoon
-var dragoon = L.divIcon({className: 'dragoon',iconAnchor: [110,27]});
-// you can set .my-div-icon styles in CSS
-L.marker([ 46.8721964, -123.1930277 ], {icon: dragoon}).addTo(mymap);
+var thirdPLT = L.divIcon({className: 'thirdPLT',iconAnchor: [110,27]});
+L.marker([ 46.8501359, -123.2154047 ], {icon: thirdPLT}).addTo(mymap);
+
 // var dragoon = L.marker([	46.8721964, -123.1930277]).addTo(mymap);
+var objective_dragoon = L.divIcon({className: 'objective_dragoon',iconAnchor: [60,30]});
+L.marker([ 46.8721964, -123.1930277 ], {icon: objective_dragoon}).addTo(mymap).bindPopup('<img src="obj_dragoon_overhead.PNG" height="150px" width="150px"/>');
 
 //Ambush Symbol
-46.87109/-123.19171
-
 var ambush = L.divIcon({className: 'ambush',iconAnchor: [0,0]});
 // you can set .my-div-icon styles in CSS
 L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
 
-var objective_dragoon = L.divIcon({className: 'objective_dragoon',iconAnchor: [60,30]});
-// you can set .my-div-icon styles in CSS
-L.marker([ 46.8721964, -123.1930277 ], {icon: objective_dragoon}).addTo(mymap);
+// var popup = L.popup();
+//
+// var photoImg = '<img src="obj_dragoon_overhead.PNG" height="150px" width="150px"/>';
+//
+// function onMapClick(e) {
+//     popup
+//         .setLatLng(e.latlng)
+//         .setContent("<center>OBJ Dragoon</center>" + "</br>"+ photoImg)
+//         .openOn(mymap);
+// }
+//
+// mymap.on('click', onMapClick);
 
 
 // var LeafIcon = L.Icon.extend({
