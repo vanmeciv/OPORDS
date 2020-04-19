@@ -1,8 +1,9 @@
-var mymap = L.map('mapid').setView([46.881, -123.2014], 10.45);
+var mymap = L.map('mapid').setView([46.861, -123.1352], 11);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
+    minzoon: 11,
+    maxZoom: 15,
     id: 'mapbox/outdoors-v11',
     tileSize: 512,
     zoomOffset: -1,
@@ -40,6 +41,35 @@ L.marker([ 46.8721964, -123.1930277 ], {icon: objective_dragoon}).addTo(mymap).b
 var ambush = L.divIcon({className: 'ambush',iconAnchor: [0,0]});
 // you can set .my-div-icon styles in CSS
 L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
+
+// create a red polyline from an array of LatLng points
+var latlngs = [
+    [-123.2151369, 46.8454659 ],
+    [ -123.2150120, 46.8470500],
+    [-123.2113491, 46.8494866 ]
+];
+var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+// zoom the map to the polyline
+map.fitBounds(polyline.getBounds());
+
+
+// // Loads Mt. Rainier Marker from local file
+//   	$.getJSON("line_test.json",function(data){
+// 			// add GeoJSON layer to the map once the file is loaded
+// 			L.geoJson(data, {
+// 				style: function(feature){
+// 					return { color:"#a13d2d", weight: .5, fillColor:"BLACK", fillOpacity: 5 };
+// 				}
+// 			}).addTo(mymap);
+// 		});
+//
+
+
+
+
+//
+
+
 
 // var popup = L.popup();
 //
