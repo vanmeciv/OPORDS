@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([46.732, -122.8], 8);
+var mymap = L.map('mapid').setView([46.933, -123.1308], 11);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -12,16 +12,18 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 // OBJ Dragoon
-var objDragoon = L.divIcon({className: 'my-div-icon'});
+var objDragoon = L.divIcon({className: 'dragoon'});
 // you can set .my-div-icon styles in CSS
 L.marker([46.8721964, -123.1930277], {icon: objDragoon}).addTo(mymap);
 // var dragoon = L.marker([	46.8721964, -123.1930277]).addTo(mymap);
 
 // OBJ Chestnut
-var chestnut = L.marker([	46.8793401, -123.2235009]).addTo(mymap);
+var chestnut = L.divIcon({className: 'chestnut'});
+L.marker([	46.8793401, -123.2235009], {icon: objDragoon}).addTo(mymap);
 
 // OBJ Blackjack
-var blackjack = L.marker([	46.8579105, -123.1792019]).addTo(mymap);
+var blackjack = L.divIcon({className: 'blackjack'});
+L.marker([	46.8579105, -123.1792019], {icon: objDragoon}).addTo(mymap);
 
 // FOB Spartan
 var spartan = L.divIcon({className: 'hostileInst'});

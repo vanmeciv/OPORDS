@@ -11,6 +11,39 @@
 .hostileInst {
   background-image: url(564px-HOS_INS.svg.png);
   background-repeat: no-repeat;
-  background-size: 24px 50px;
-  padding-top: 30px;
+  background-size: 50px 50px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.spartan {
+  background-image: url(.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.blackjack {
+  background-image: url(1st_PLT.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.chestnut {
+  background-image: url(2nd_PLT.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.dragoon {
+  background-image: url(3rd_PLT.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  padding-top: 40px;
+  padding-right: 40px;
 }
