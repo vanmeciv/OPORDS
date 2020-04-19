@@ -34,6 +34,17 @@ var dragoon = L.divIcon({className: 'dragoon',iconAnchor: [110,27]});
 L.marker([ 46.8721964, -123.1930277 ], {icon: dragoon}).addTo(mymap);
 // var dragoon = L.marker([	46.8721964, -123.1930277]).addTo(mymap);
 
+//Ambush Symbol
+46.87109/-123.19171
+
+var ambush = L.divIcon({className: 'ambush',iconAnchor: [0,0]});
+// you can set .my-div-icon styles in CSS
+L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
+
+var objective_dragoon = L.divIcon({className: 'objective_dragoon',iconAnchor: [60,30]});
+// you can set .my-div-icon styles in CSS
+L.marker([ 46.8721964, -123.1930277 ], {icon: objective_dragoon}).addTo(mymap);
+
 
 // var LeafIcon = L.Icon.extend({
 //     options: {

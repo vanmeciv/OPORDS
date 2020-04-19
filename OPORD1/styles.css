@@ -19,7 +19,7 @@
 .spartan {
   background-image: url(https://github.com/vanmeciv/OPORDS/blob/master/OPORD1/Charlie_FOB.PNG?raw=true);
   background-repeat: no-repeat;
-  background-size: 185px 50px;
+  background-size: 170px 50px;
   padding-top: 40px;
   padding-right: 185px;
 }
@@ -45,5 +45,21 @@
   background-repeat: no-repeat;
   background-size: 220px 50px;
   padding-top: 40px;
+  padding-right: 220px;
+}
+
+.ambush {
+  background-image: url(3rd_PLT_ambush.png);
+  background-repeat: no-repeat;
+  background-size: 120px 90px;
+  padding-top: 100px;
+  padding-right: 220px;
+}
+
+.objective_dragoon {
+  background-image: url(objective_dragoon.png);
+  background-repeat: no-repeat;
+  background-size: 180px 150px;
+  padding-top: 150px;
   padding-right: 220px;
 }
