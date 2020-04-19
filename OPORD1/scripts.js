@@ -12,17 +12,17 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 // OBJ Dragoon
-var dragoon = L.divIcon({className: 'dragoon'});
+var dragoon = L.divIcon({className: 'dragoon',iconAnchor: [110,27]});
 // you can set .my-div-icon styles in CSS
 L.marker([ 46.8721964, -123.1930277 ], {icon: dragoon}).addTo(mymap);
 // var dragoon = L.marker([	46.8721964, -123.1930277]).addTo(mymap);
 
 // OBJ Chestnut
-var chestnut = L.divIcon({className: 'chestnut'});
+var chestnut = L.divIcon({className: 'chestnut',iconAnchor: [110,27]});
 L.marker([	46.8793401, -123.2235009 ], {icon: chestnut}).addTo(mymap);
 
 // OBJ Blackjack
-var blackjack = L.divIcon({className: 'blackjack'});
+var blackjack = L.divIcon({className: 'blackjack',iconAnchor: [110,27]});
 L.marker([	46.8579105, -123.1792019 ], {icon: blackjack}).addTo(mymap);
 
 // FOB Spartan
