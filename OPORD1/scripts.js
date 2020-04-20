@@ -42,27 +42,18 @@ var ambush = L.divIcon({className: 'ambush',iconAnchor: [0,0]});
 // you can set .my-div-icon styles in CSS
 L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
 
-// create a red polyline from an array of LatLng points
-var latlngs = [
-    [-123.2151369, 46.8454659 ],
-    [ -123.2150120, 46.8470500],
-    [-123.2113491, 46.8494866 ]
-];
-var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
-// zoom the map to the polyline
-map.fitBounds(polyline.getBounds());
 
 
-// // Loads Mt. Rainier Marker from local file
-//   	$.getJSON("line_test.json",function(data){
-// 			// add GeoJSON layer to the map once the file is loaded
-// 			L.geoJson(data, {
-// 				style: function(feature){
-// 					return { color:"#a13d2d", weight: .5, fillColor:"BLACK", fillOpacity: 5 };
-// 				}
-// 			}).addTo(mymap);
-// 		});
-//
+// Loads Mt. Rainier Marker from local file
+  	$.getJSON("test.json",function(data){
+			// add GeoJSON layer to the map once the file is loaded
+			L.geoJson(data, {
+				style: function(feature){
+					return { color:"#a13d2d", weight: .5, fillColor:"BLACK", fillOpacity: 5 };
+				}
+			}).addTo(mymap);
+		});
+
 
 
 
