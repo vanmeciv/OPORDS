@@ -10,10 +10,10 @@ Degrees Lat Long 	46.8795426, -123.0599767
 
 A Co to North
 
-B Co to East
-
 AO:
 Larch mountain to north - XVP6+WW Malone-Porter, Washington
+
+B Co to East
 Little Rock to east - Little Rock, WA
 
 
@@ -32,8 +32,6 @@ Degrees Lat Long 	46.8721964, -123.1930277
 
 
 suggested route:
-10T DS 83597 88014
-	46.8454659, -123.2151369
 10T DS 83607 88190
 	46.8470500, -123.2150120
 10T DS 83887 88460

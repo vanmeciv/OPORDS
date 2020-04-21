@@ -49,12 +49,20 @@ L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
 			// add GeoJSON layer to the map once the file is loaded
 			L.geoJson(data, {
 				style: function(feature){
-					return { color:"#a13d2d", weight: .5, fillColor:"BLACK", fillOpacity: 5 };
+					return { color:"#a13d2d", weight: 3, fillColor:"BLACK", fillOpacity: 5 };
 				}
 			}).addTo(mymap);
 		});
 
 L.control.scale().addTo(mymap);
+
+var north = L.control({position: "topright"});
+north.onAdd = function(mymap) {
+    var div = L.DomUtil.create("div", "info legend");
+    div.innerHTML = '<img src="n_arrow.png">';
+    return div;
+}
+north.addTo(mymap);
 
 
 
