@@ -54,7 +54,7 @@ L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
 			}).addTo(mymap);
 		});
 
-
+L.control.scale().addTo(mymap);
 
 
 
