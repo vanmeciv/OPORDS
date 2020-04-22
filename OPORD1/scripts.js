@@ -42,9 +42,15 @@ var ambush = L.divIcon({className: 'ambush',iconAnchor: [0,0]});
 // you can set .my-div-icon styles in CSS
 L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
 
+// Northern AO
+var north_AO = L.divIcon({className: 'north_AO',iconAnchor: [110,27]});
+L.marker([ 46.987620, -123.138020 ], {icon: north_AO}).addTo(mymap);
 
+// Eastern AO
+var east_AO = L.divIcon({className: 'east_AO',iconAnchor: [110,27]});
+L.marker([ 46.900121, -123.017832 ], {icon: east_AO}).addTo(mymap);
 
-// Loads Mt. Rainier Marker from local file
+// Loads Route Plan
   	$.getJSON("test.json",function(data){
 			// add GeoJSON layer to the map once the file is loaded
 			L.geoJson(data, {
