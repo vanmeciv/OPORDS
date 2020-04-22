@@ -34,7 +34,7 @@ var thirdPLT = L.divIcon({className: 'thirdPLT',iconAnchor: [110,27]});
 L.marker([ 46.8501359, -123.2154047 ], {icon: thirdPLT}).addTo(mymap);
 
 // var dragoon = L.marker([	46.8721964, -123.1930277]).addTo(mymap);
-var objective_dragoon = L.divIcon({className: 'objective_dragoon',iconAnchor: [60,30]});
+var objective_dragoon = L.divIcon({className: 'objective_dragoon',iconAnchor: [25,30]});
 L.marker([ 46.8721964, -123.1930277 ], {icon: objective_dragoon}).addTo(mymap).bindPopup('<img src="obj_dragoon_overhead.PNG" height="150px" width="150px"/>');
 
 //Ambush Symbol
@@ -47,7 +47,7 @@ var north_AO = L.divIcon({className: 'north_AO',iconAnchor: [110,27]});
 L.marker([ 46.987620, -123.138020 ], {icon: north_AO}).addTo(mymap);
 
 // Eastern AO
-var east_AO = L.divIcon({className: 'east_AO',iconAnchor: [75,0]});
+var east_AO = L.divIcon({className: 'east_AO',iconAnchor: [75,30]});
 L.marker([ 46.900121, -123.017832 ], {icon: east_AO}).addTo(mymap);
 
 // Loads Route Plan

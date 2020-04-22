@@ -51,15 +51,15 @@
 .ambush {
   background-image: url(https://github.com/vanmeciv/OPORDS/blob/master/OPORD1/3rd_PLT_ambush.PNG?raw=true);
   background-repeat: no-repeat;
-  background-size: 120px 110px;
-  padding-top: 100px;
-  padding-right: 220px;
+  background-size: 55px 55px;
+  padding-top: 110px;
+  padding-right: 120px;
 }
 
 .objective_dragoon {
   background-image: url(https://github.com/vanmeciv/OPORDS/blob/master/OPORD1/objective_dragoon.PNG?raw=true);
   background-repeat: no-repeat;
-  background-size: 110px 80px;
+  background-size: 65px 50px;
   padding-top: 108px;
   padding-right: 138px;
 }
