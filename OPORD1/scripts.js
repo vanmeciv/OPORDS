@@ -47,6 +47,12 @@ var orp = L.divIcon({className: 'orp',iconAnchor: [5,20]});
 // you can set .my-div-icon styles in CSS
 L.marker([ 46.8688900, -123.1843951 ], {icon: orp}).addTo(mymap);
 
+// //ORP Symbol
+// var protractor = L.divIcon({className: 'protractor',iconAnchor: [5,20]});
+// // you can set .my-div-icon styles in CSS
+// L.marker([ 46.8688900, -123.1843951 ], {icon: protractor,draggable:'true'}).addTo(mymap);
+
+
 // Northern AO
 var north_AO = L.divIcon({className: 'north_AO',iconAnchor: [110,27]});
 L.marker([ 46.987620, -123.138020 ], {icon: north_AO}).addTo(mymap);
