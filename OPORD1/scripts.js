@@ -38,9 +38,14 @@ var objective_dragoon = L.divIcon({className: 'objective_dragoon',iconAnchor: [2
 L.marker([ 46.8721964, -123.1930277 ], {icon: objective_dragoon}).addTo(mymap).bindPopup('<img src="obj_dragoon_overhead.PNG" height="150px" width="150px"/>');
 
 //Ambush Symbol
-var ambush = L.divIcon({className: 'ambush',iconAnchor: [0,0]});
+var ambush = L.divIcon({className: 'ambush',iconAnchor: [-20,0]});
 // you can set .my-div-icon styles in CSS
 L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
+
+//ORP Symbol
+var orp = L.divIcon({className: 'orp',iconAnchor: [5,20]});
+// you can set .my-div-icon styles in CSS
+L.marker([ 46.8688900, -123.1843951 ], {icon: orp}).addTo(mymap);
 
 // Northern AO
 var north_AO = L.divIcon({className: 'north_AO',iconAnchor: [110,27]});

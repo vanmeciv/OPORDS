@@ -8,13 +8,11 @@ Matlock (adjoining sheet 1377 IV).
 Arianan HQ: IVO 10TDS95439178
 Degrees Lat Long 	46.8795426, -123.0599767
 
-A Co to North
-
-AO:
+A Co to North:
 Larch mountain to north
 46.987620, -123.138020
 
-B Co to East
+B Co to East:
 Little Rock to east - Little Rock, WA
 46.900121, -123.017832
 

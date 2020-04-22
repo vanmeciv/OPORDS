@@ -79,3 +79,11 @@
   padding-top: 220px;
   padding-right: 50px;
 }
+
+.orp {
+  background-image: url(orp.png);
+  background-repeat: no-repeat;
+  background-size: 18px 25px;
+  padding-top: 220px;
+  padding-right: 50px;
+}
