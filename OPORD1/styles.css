@@ -65,9 +65,17 @@
 }
 
 .north_AO {
-  background-image: url(https://github.com/vanmeciv/OPORDS/blob/master/OPORD1/Co_AOs.PNG?raw=true);
+  background-image: url(https://github.com/vanmeciv/OPORDS/blob/master/OPORD1/ACo_Boundary.PNG?raw=true);
   background-repeat: no-repeat;
   background-size: 220px 50px;
   padding-top: 40px;
   padding-right: 220px;
+}
+
+.east_AO {
+  background-image: url(https://github.com/vanmeciv/OPORDS/blob/master/OPORD1/BCo_Boundary.PNG?raw=true);
+  background-repeat: no-repeat;
+  background-size: 50px 220px;
+  padding-top: 220px;
+  padding-right: 50px;
 }

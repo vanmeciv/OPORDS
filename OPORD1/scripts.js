@@ -47,7 +47,7 @@ var north_AO = L.divIcon({className: 'north_AO',iconAnchor: [110,27]});
 L.marker([ 46.987620, -123.138020 ], {icon: north_AO}).addTo(mymap);
 
 // Eastern AO
-var east_AO = L.divIcon({className: 'east_AO',iconAnchor: [110,27]});
+var east_AO = L.divIcon({className: 'east_AO',iconAnchor: [75,0]});
 L.marker([ 46.900121, -123.017832 ], {icon: east_AO}).addTo(mymap);
 
 // Loads Route Plan
