@@ -45,7 +45,7 @@ L.marker([ 46.87109, -123.19171 ], {icon: ambush}).addTo(mymap);
 //ORP Symbol
 var orp = L.divIcon({className: 'orp',iconAnchor: [5,20]});
 // you can set .my-div-icon styles in CSS
-L.marker([ 46.8688900, -123.1843951 ], {icon: orp}).addTo(mymap);
+L.marker([ 46.8653689, -123.1913763 ], {icon: orp}).addTo(mymap);
 
 // //ORP Symbol
 // var protractor = L.divIcon({className: 'protractor',iconAnchor: [5,20]});
